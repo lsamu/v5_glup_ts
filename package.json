@@ -17,8 +17,15 @@
   },
   "homepage": "https://github.com/lsamu/v5_glup_ts#readme",
   "dependencies": {
+    "babel-core": "^6.26.3",
     "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
     "gulp-typescript": "^5.0.0",
     "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^7.1.5"
   }
 }

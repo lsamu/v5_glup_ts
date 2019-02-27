@@ -7,6 +7,9 @@ var test = /** @class */ (function () {
     test.prototype.test1 = function () {
         console.log("12312312");
     };
+    test.prototype.test2 = function () {
+        console.log("222222222222222222");
+    };
     return test;
 }());
 new test().test1();
